@@ -25,18 +25,20 @@
     
     <body>
         <div id="header">
-        <h1>Travel Guide</h1>
+        <h1>Jake's Travel Guide</h1>
         </div>
         
         <div class="container">
           <h2>Tabs</h2>
-          <p>Where do I want to visit?</p>                  
-          <ul class="nav nav-tabs" role="tablist">
-            <li><a href="index.html">Home</a></li>
-            <li class="active"><a href="London.html">London</a></li>
-            <li><a href="Paris.html">Paris</a></li>
-            <li><a href="Tokyo.html">Tokyo</a></li>        
-          </ul>
+          <p>Where do I want to visit?</p> 
+          <nav>
+              <ul class="nav nav-tabs" role="tablist">
+                <li><a href="index.html">Home</a></li>
+                <li class="active"><a href="London.html">London</a></li>
+                <li><a href="Paris.html">Paris</a></li>
+                <li><a href="Tokyo.html">Tokyo</a></li>        
+              </ul>
+          </nav>
         </div>
         
         <div class="container">
@@ -56,7 +58,10 @@
         </div>
         </div>
 
-        <a href="#top">Top</a>
+        <form method="get" action="#top">
+            <button type="submit">Top</button>
+        </form>
+        
         <div id="footer">
         Copyright Jake Reisner
         </div>

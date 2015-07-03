@@ -10,7 +10,7 @@
     height:300px;
     width:100px;
     float:left;
-    padding:5px; 
+    padding:5px;
 }
 #section {
     width:350px;
@@ -30,10 +30,45 @@ h1 {
 }
 
 img {
-    width:50%;
+    width:80%;
     padding-bottom:20px;
 }
 
 .align {
     text-align: left;
+}
+
+.container {
+    width: 960;
+    margin: 0 auto;
+}
+
+nav li a {
+    color: green;
+}
+
+nav li a:hover {
+    color: orange;
+}
+
+table {
+    border: 2px solid red;
+}
+
+.active {
+    font-weight: bold;
+}
+
+th, td {
+    border: 2px solid black;
+    padding: 5px;
+}
+
+table {
+    border-collapse: collapse;
+    margin: 0 auto;
+}
+
+table tr:hover {
+    background:#A9A9A9;
 }
